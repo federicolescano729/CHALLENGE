@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", arial, sans-serif;
+  }
+
+:root {
+    --Cyan-400: hsl(178, 100%, 50%);
+    --Blue-950: hsl(217, 54%, 11%);
+    --Blue-900: hsl(216, 50%, 16%);
+    --Blue-800: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Blue-500: hsl(215, 51%, 70%);
+
+}
+
+article {
+    background-color: var(--Blue-900);
+    width: 400px;
+    margin:40px;
+    box-shadow: 2px 2px 12px 3px rgb(20, 25, 54);
+    border-radius: 20px;
+    padding:30px;
+    
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--Blue-950);
+}
+
+.nft{
+    width:100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--White);
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 20px;
+    color: var(--Blue-500);
+    margin-bottom: 20px;
+}
+
+.data-nft {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+strong {
+    color: var(--Cyan-400);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color: var(--Blue-500);
+}
+
+hr {
+    border: 1px solid var(--Blue-500);
+    margin-bottom: 20px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.avatar img {
+    width: 20%;
+}
+
+.avatar p {
+    margin:0;
+}
+
+.avatar p {
+    color: var(--Blue-500);
+}
+
+.avatar strong {
+    color: var(--White);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 0.6875em;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

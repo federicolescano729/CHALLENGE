@@ -99,24 +99,10 @@ hr {
     color: var(--White);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { 
-    font-size: 0.6875em;
-    text-align: center;
+p strong:hover {
+    cursor: pointer;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+h2:hover {
+    cursor: pointer;
 }
